@@ -5,7 +5,7 @@
 width: 100%;
 height: 100%;
 }
-.Tani{
+.tani{
     background-color: coral;
     height: 90px;
     width: auto;
@@ -44,7 +44,7 @@ height: 100%;
     float: left;
 
 }
-.main {
+#main-content-section {
     float:left;
     border:1px solid black;
     margin-top:10px;
@@ -54,7 +54,7 @@ height: 100%;
 
 
 }
-.image1{
+.post-img{
     margin-top: 10px;
     float:left;
     margin-left:1%;
@@ -64,7 +64,7 @@ height: 100%;
     width:30%;
     overflow:hidden;
 }
-.main img{
+#main-content-section img{
     height: 172px;
     width: 100%;
     border-radius: 10px;
@@ -80,11 +80,13 @@ height: 100%;
     margin-top: 10px;
     
 }
-.foot{
+#page-footer{
     background-color:plum;
     margin-top: 10px;
     height:100px;
     width:100%;
     text-align: left;
 }
+
+
 
