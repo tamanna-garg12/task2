@@ -54,7 +54,7 @@
         float: left;
     
     }
-    .main {
+    #main-content-section {
         float:left;
         border:1px solid black;
         margin-top:10px;
@@ -65,7 +65,7 @@
     
     
     }
-    .image1{
+    .post-img{
         margin-top: 10px;
         float:left;
         margin-left:1%;
@@ -75,13 +75,13 @@
         width:30%;
         overflow:hidden;
     }
-    .main img{
+    #main-content-section img{
         height: 172px;
         width: 100%;
         border-radius: 10px;
     
     }
-    .right{
+    #right-sidebar-menu{
         margin-top: 14px;
         margin-right:6px;
         border: 1px solid black;
@@ -93,7 +93,7 @@
         
         
     }
-    .foot{
+    #page-footer{
         border:1px solid black;
         margin: 6px;
         background-color:rgb(230, 171, 150);
