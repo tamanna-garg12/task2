@@ -2,89 +2,106 @@
 
 
 .container, .content {
-width: 100%;
-height: 100%;
-}
-.tani{
-    background-color: coral;
-    height: 90px;
-    width: auto;
-    border: 1px solid black;
-}
-.dev{
-    height: 70px;
-    width: 20px;
-
-    margin-top: 10px;
-    float: left;
-    margin-left: 10px;
-}
-.logo{
-    margin-top:37px;
-    float: right;
-}
-.tayo{
-    background-color: antiquewhite;
-    height: 30px;
-    width: auto;
-    border: 1px solid black;
-    margin-top: 4px;
-}
-.tayo .link1,.link2,.link3,.link4{
-    margin-top: 10px;
-    float:left;
-    margin-left: 208px;
-
-}
-.left-part{
-    border: 1px solid black;
-    margin-top: 10px;
-    height: 400px;
-    width: 15%;
-    float: left;
-
-}
-.main {
-    float:left;
-    border:1px solid black;
-    margin-top:10px;
-    margin-left:1%;
-    height: 400px;
-    width:67%;
-
-
-}
-.image1{
-    margin-top: 10px;
-    float:left;
-    margin-left:1%;
-    display:block;
-    padding:10px;
-    border-radius: 5px;
-    width:30%;
-    overflow:hidden;
-}
-.main img{
-    height: 172px;
     width: 100%;
-    border-radius: 10px;
-
-}
-.right{
-   
-    border: 1px solid black;
-    width: 15%;
-    height: 400px;
-    float: top;
-    margin-left: 85%;
-    margin-top: 10px;
+    height: 100%;
+    }
+    .wrap{
+        border:1px solid black;
+    }
+    .Tani{
+        margin: 6px;
+        background-color: rgb(230, 171, 150);
+        height: 90px;
+        width: auto;
+        border: 1px solid black;
+    }
+    .dev{
+        height: 70px;
+        width: 20px;
     
-}
-.foot{
-    background-color:plum;
-    margin-top: 10px;
-    height:100px;
-    width:100%;
-    text-align: left;
-}
-
+        margin-top: 10px;
+        float: left;
+        margin-left: 10px;
+    }
+    .logo{
+        margin-top:37px;
+        float: right;
+    }
+    .tayo{
+        margin: 6px;
+        background-color: antiquewhite;
+        height: 30px;
+        width: auto;
+        border: 1px solid black;
+        margin-top: 2px;
+    }
+    a:hover {
+        background-color:yellow;
+      }
+    .tayo .link1,.link2,.link3,.link4{
+        margin-top: 10px;
+        float:left;
+        margin-left: 208px;
+    
+    }
+    .left-part{
+        background-color: thistle;
+        margin: 6px;
+        border: 1px solid black;
+        margin-top: 10px;
+        height: 410px;
+        width: 15%;
+        float: left;
+    
+    }
+    #main-content-section {
+        float:left;
+        border:1px solid black;
+        margin-top:10px;
+        margin-left:1%;
+        height: 410px;
+        width:67%;
+        background-color: whitesmoke;
+    
+    
+    }
+    .post-img{
+        margin-top: 10px;
+        float:left;
+        margin-left:1%;
+        display:block;
+        padding:10px;
+        border-radius: 5px;
+        width:30%;
+        overflow:hidden;
+    }
+    #main-content-section img{
+        height: 172px;
+        width: 100%;
+        border-radius: 10px;
+    
+    }
+    #right-sidebar-menu{
+        margin-top: 14px;
+        margin-right:6px;
+        border: 1px solid black;
+        width: 14%;
+        height: 410px;
+        float: top;
+        margin-left: 85%;
+        background-color: thistle;
+        
+        
+    }
+    #page-footer{
+        border:1px solid black;
+        margin: 6px;
+        background-color:rgb(230, 171, 150);
+        margin-top: 10px;
+        height:100px;
+        width:97.5%;
+        text-align: left;
+        padding: 8px;
+    }
+    
+    
